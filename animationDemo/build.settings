@@ -1,0 +1,11 @@
+settings =
+{
+	plugins =
+	{
+		["plugin.sceneKit"] =
+        {
+            -- required
+            publisherId = "tech.scotth",
+        },
+    }
+}
