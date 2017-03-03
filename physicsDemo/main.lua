@@ -1,6 +1,7 @@
+
 local sceneKit = require "plugin.sceneKit"
 sceneKit.init()
-sceneKit.cameraZ(1000, 0)
+sceneKit.cameraZ(1000, .0001)
 sceneKit.setBackgroundColor(1,1,1,0)
 sceneKit.setFps(30)
 sceneKit.setGravity(0,-100,0)
