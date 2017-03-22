@@ -1,5 +1,5 @@
 local sceneKit = require "plugin.sceneKit"
-if system.getInfo( "environment" ) == "simulator" then
+if system.getInfo( "environment" ) == "simulator" or system.getInfo( "platform" ) == "macos" or system.getInfo( "platform" ) == "win32" or system.getInfo( "platform" ) == "android" then
   print( "WARNING: The sceneKit library is not available on this platform." )
 else
   sceneKit.init()
