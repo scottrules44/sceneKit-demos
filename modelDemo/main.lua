@@ -1,5 +1,5 @@
 if system.getInfo( "environment" ) == "simulator" then
-  print( "scenekit plugin not supported device" )
+  print( "WARNING: The sceneKit library is not available on this platform." )
 else
   timer.performWithDelay( 1000, function ()
     local sceneKit = require "plugin.sceneKit"

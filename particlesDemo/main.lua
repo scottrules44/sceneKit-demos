@@ -1,6 +1,6 @@
 local sceneKit = require "plugin.sceneKit"
 if system.getInfo( "environment" ) == "simulator" then
-  print( "scenekit plugin not supported device" )
+  print( "WARNING: The sceneKit library is not available on this platform." )
 else
   sceneKit.init()
   sceneKit.cameraZ(40000, .001)
